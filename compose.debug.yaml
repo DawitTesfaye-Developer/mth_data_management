@@ -1,0 +1,6 @@
+services:
+  peopledesk:
+    image: peopledesk
+    build:
+      context: .
+      dockerfile: ./Dockerfile
